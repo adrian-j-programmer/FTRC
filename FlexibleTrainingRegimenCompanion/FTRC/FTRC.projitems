@@ -6,7 +6,7 @@
     <SharedGUID>{6BB37D9D-E3D6-440C-A044-B5B2E03691C4}</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>FlexibleTrainingRegimenCompanion</Import_RootNamespace>
+    <Import_RootNamespace>FTRC</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
