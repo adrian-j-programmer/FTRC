@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexibleTrainingRegimenCompanion.Android", "FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion.Android\FlexibleTrainingRegimenCompanion.Android.csproj", "{27A21F05-A549-496B-823E-2F2445E48601}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FlexibleTrainingRegimenCompanion", "FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion.shproj", "{6BB37D9D-E3D6-440C-A044-B5B2E03691C4}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion.projitems*{27a21f05-a549-496b-823e-2f2445e48601}*SharedItemsImports = 4
+		FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion\FlexibleTrainingRegimenCompanion.projitems*{6bb37d9d-e3d6-440c-a044-b5b2e03691c4}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A21F05-A549-496B-823E-2F2445E48601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A21F05-A549-496B-823E-2F2445E48601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A21F05-A549-496B-823E-2F2445E48601}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27A21F05-A549-496B-823E-2F2445E48601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A21F05-A549-496B-823E-2F2445E48601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A21F05-A549-496B-823E-2F2445E48601}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0D843C7-16D0-49D2-ABB1-EAE76DAE9015}
+	EndGlobalSection
+EndGlobal
