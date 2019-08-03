@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTRC.Android", "FlexibleTra
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FTRC", "FlexibleTrainingRegimenCompanion\FTRC\FTRC.shproj", "{6BB37D9D-E3D6-440C-A044-B5B2E03691C4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModelUtilities", "ViewModelUtilities\ViewModelUtilities.csproj", "{04C90A7D-5CCD-4F27-9FFD-16C3D0A3176C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTRC.Timer", "FTRC.Timer\FTRC.Timer.csproj", "{5849CECA-DC73-4DA5-BCB6-668A7E8E5604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTRC.Data", "FTRC.Data\FTRC.Data.csproj", "{5C19B1BA-F66D-47B4-BE96-ACF055AD63DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{300C81FF-09DD-4A91-A678-7A2940040A8B}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		FlexibleTrainingRegimenCompanion\FTRC\FTRC.projitems*{27a21f05-a549-496b-823e-2f2445e48601}*SharedItemsImports = 4
@@ -23,6 +31,22 @@ Global
 		{27A21F05-A549-496B-823E-2F2445E48601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A21F05-A549-496B-823E-2F2445E48601}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27A21F05-A549-496B-823E-2F2445E48601}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{04C90A7D-5CCD-4F27-9FFD-16C3D0A3176C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C90A7D-5CCD-4F27-9FFD-16C3D0A3176C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C90A7D-5CCD-4F27-9FFD-16C3D0A3176C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C90A7D-5CCD-4F27-9FFD-16C3D0A3176C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5849CECA-DC73-4DA5-BCB6-668A7E8E5604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5849CECA-DC73-4DA5-BCB6-668A7E8E5604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5849CECA-DC73-4DA5-BCB6-668A7E8E5604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5849CECA-DC73-4DA5-BCB6-668A7E8E5604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C19B1BA-F66D-47B4-BE96-ACF055AD63DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C19B1BA-F66D-47B4-BE96-ACF055AD63DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C19B1BA-F66D-47B4-BE96-ACF055AD63DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C19B1BA-F66D-47B4-BE96-ACF055AD63DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300C81FF-09DD-4A91-A678-7A2940040A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300C81FF-09DD-4A91-A678-7A2940040A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300C81FF-09DD-4A91-A678-7A2940040A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300C81FF-09DD-4A91-A678-7A2940040A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,11 +7,18 @@ namespace FTRC
 {
     public partial class App : Application
     {
+        public string DBPath { get; }
+
+        public App(string dbPath) : this()
+        {
+            DBPath = dbPath;
+        }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainMenuView();
         }
 
         protected override void OnStart()
