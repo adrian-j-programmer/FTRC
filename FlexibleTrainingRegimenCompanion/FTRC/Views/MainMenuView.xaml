@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FTRC.Views"
+             xmlns:viewModels="clr-namespace:FTRC.ViewModels"
+             xmlns:behaviors="clr-namespace:FTRC.Behaviors"
+             x:Class="FTRC.Views.MainMenuView">
+    <ContentPage.Resources>
+        <ResourceDictionary Source="ResourceDictionaries/RegimenListItemTemplate.xaml"/>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewModels:MainMenuViewModel/>
+    </ContentPage.BindingContext>
+    <Grid VerticalOptions="StartAndExpand" HorizontalOptions="Fill">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <ListView ItemsSource="{Binding Regimens}"
+                  Grid.Row="0" HorizontalOptions="CenterAndExpand"
+                  ItemTemplate="{StaticResource regimenListItemTemplate}">
+        </ListView>
+        <Button Command="{Binding AddRegimenCommand}" 
+                Text="+"
+                Grid.Row="1" HorizontalOptions="Center"/>
+    </Grid>
+    
+
+</ContentPage>

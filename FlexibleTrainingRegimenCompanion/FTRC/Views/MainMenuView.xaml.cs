@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace FTRC
+namespace FTRC.Views
 {
-    public partial class MainPage : ContentPage
+    public partial class MainMenuView : ContentPage
     {
-        public MainPage()
+        public MainMenuView()
         {
             InitializeComponent();
         }

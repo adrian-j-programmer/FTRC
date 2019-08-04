@@ -10,17 +10,31 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainMenuView.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MainMenuView.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MainMenuView.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\EventToCommandBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Excercise.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Regimen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\SerializableObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainMenuView.xaml.cs">
       <DependentUpon>MainMenuView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\RegimenRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Systems\DependencyInjection\DISystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ExcerciseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainMenuViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\RegimenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ViewableObject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Page Include="$(MSBuildThisFileDirectory)Views\ResourceDictionaries\RegimenListItemTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>
